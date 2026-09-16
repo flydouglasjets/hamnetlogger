@@ -1,0 +1,476 @@
+{
+  "is_net_active": false,
+  "net_state_name": "CLOSED",
+  "current_ncs_callsign": "W9JS",
+  "current_scribe_callsign": "W9JBA",
+  "stations": [
+    {
+      "callsign": "W9JS",
+      "type": "NCS",
+      "detail": "-",
+      "info": "Net Control Station",
+      "status": "Active",
+      "time_in": "13:32",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9NES",
+      "type": "ANCS",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:33",
+      "time_out": ""
+    },
+    {
+      "callsign": "AK9R",
+      "type": "NTS",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:34",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9SOX",
+      "type": "Mobile",
+      "detail": "Announcement",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:35",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9IVI",
+      "type": "Mobile",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:36",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9DYO",
+      "type": "Mobile",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:36",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9BRI",
+      "type": "Mobile",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:37",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9QS",
+      "type": "Mobile",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:39",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD6ARM",
+      "type": "Base",
+      "detail": "-",
+      "info": "Alan",
+      "status": "Active",
+      "time_in": "13:40",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9BXR",
+      "type": "Base",
+      "detail": "-",
+      "info": "David",
+      "status": "Active",
+      "time_in": "13:40",
+      "time_out": ""
+    },
+    {
+      "callsign": "KB7CHY",
+      "type": "Base",
+      "detail": "-",
+      "info": "Gerry",
+      "status": "Active",
+      "time_in": "13:40",
+      "time_out": ""
+    },
+    {
+      "callsign": "NE9D",
+      "type": "Base",
+      "detail": "-",
+      "info": "Matthew R",
+      "status": "Active",
+      "time_in": "13:41",
+      "time_out": ""
+    },
+    {
+      "callsign": "WB9DKL",
+      "type": "Base",
+      "detail": "-",
+      "info": "Ron",
+      "status": "Active",
+      "time_in": "13:41",
+      "time_out": ""
+    },
+    {
+      "callsign": "K9DRU",
+      "type": "Base",
+      "detail": "-",
+      "info": "Andrew",
+      "status": "Active",
+      "time_in": "13:42",
+      "time_out": ""
+    },
+    {
+      "callsign": "KE9EEE",
+      "type": "Base",
+      "detail": "-",
+      "info": "James",
+      "status": "Active",
+      "time_in": "13:42",
+      "time_out": ""
+    },
+    {
+      "callsign": "KC9EHX",
+      "type": "Base",
+      "detail": "-",
+      "info": "Brad",
+      "status": "Active",
+      "time_in": "13:43",
+      "time_out": ""
+    },
+    {
+      "callsign": "KE9EKG",
+      "type": "Base",
+      "detail": "-",
+      "info": "Brian",
+      "status": "Active",
+      "time_in": "13:43",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9EKM",
+      "type": "Base",
+      "detail": "-",
+      "info": "Jerry",
+      "status": "Active",
+      "time_in": "13:44",
+      "time_out": ""
+    },
+    {
+      "callsign": "KE9ESM",
+      "type": "Base",
+      "detail": "-",
+      "info": "Henry",
+      "status": "Active",
+      "time_in": "13:44",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9EVH",
+      "type": "Base",
+      "detail": "-",
+      "info": "Brett",
+      "status": "Active",
+      "time_in": "13:44",
+      "time_out": ""
+    },
+    {
+      "callsign": "WA9FDO",
+      "type": "Base",
+      "detail": "-",
+      "info": "Mike",
+      "status": "Active",
+      "time_in": "13:45",
+      "time_out": ""
+    },
+    {
+      "callsign": "KC9HWX",
+      "type": "Base",
+      "detail": "-",
+      "info": "MIke",
+      "status": "Active",
+      "time_in": "13:45",
+      "time_out": ""
+    },
+    {
+      "callsign": "KB9JOE",
+      "type": "Base",
+      "detail": "-",
+      "info": "Joe",
+      "status": "Active",
+      "time_in": "13:46",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9KVZ",
+      "type": "Base",
+      "detail": "-",
+      "info": "Cynthia",
+      "status": "Active",
+      "time_in": "13:48",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9KWA",
+      "type": "Base",
+      "detail": "-",
+      "info": "Greg",
+      "status": "Active",
+      "time_in": "13:48",
+      "time_out": ""
+    },
+    {
+      "callsign": "KB9NPU",
+      "type": "Base",
+      "detail": "-",
+      "info": "Richard",
+      "status": "Active",
+      "time_in": "13:48",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9OPB",
+      "type": "Base",
+      "detail": "-",
+      "info": "Carl",
+      "status": "Active",
+      "time_in": "13:49",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9QML",
+      "type": "Base",
+      "detail": "-",
+      "info": "Andrew",
+      "status": "Active",
+      "time_in": "13:50",
+      "time_out": ""
+    },
+    {
+      "callsign": "AB9SS",
+      "type": "Base",
+      "detail": "-",
+      "info": "Gary",
+      "status": "Active",
+      "time_in": "13:50",
+      "time_out": ""
+    },
+    {
+      "callsign": "KB9VAO",
+      "type": "Base",
+      "detail": "-",
+      "info": "Brian",
+      "status": "Active",
+      "time_in": "13:51",
+      "time_out": ""
+    },
+    {
+      "callsign": "N2FSM",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:52",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9AMT",
+      "type": "Base",
+      "detail": "-",
+      "info": "",
+      "status": "Active",
+      "time_in": "13:52",
+      "time_out": ""
+    },
+    {
+      "callsign": "AD9FW",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:52",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9DWT",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:53",
+      "time_out": ""
+    },
+    {
+      "callsign": "KC9NZI",
+      "type": "Base",
+      "detail": "-",
+      "info": "",
+      "status": "Active",
+      "time_in": "13:53",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9OXC",
+      "type": "Base",
+      "detail": "-",
+      "info": "",
+      "status": "Active",
+      "time_in": "13:56",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9NIN",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:57",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9MAN",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:57",
+      "time_out": ""
+    },
+    {
+      "callsign": "K9FEY",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:57",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9KUP",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:58",
+      "time_out": ""
+    },
+    {
+      "callsign": "K9KSN",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:58",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9MES",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:58",
+      "time_out": ""
+    },
+    {
+      "callsign": "KD9NAL",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:58",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9TBV",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:59",
+      "time_out": ""
+    },
+    {
+      "callsign": "KA9WPR",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "13:59",
+      "time_out": ""
+    },
+    {
+      "callsign": "N9WPO",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "14:06",
+      "time_out": ""
+    },
+    {
+      "callsign": "W9ELO",
+      "type": "Base",
+      "detail": "-",
+      "info": "-",
+      "status": "Active",
+      "time_in": "14:06",
+      "time_out": ""
+    }
+  ],
+  "activities": [
+    {
+      "timestamp": "13:32",
+      "callsign": "NET CONTROL",
+      "type": "General Note",
+      "note": "=== NET SESSION STARTED (ACTIVE) ==="
+    },
+    {
+      "timestamp": "13:32",
+      "callsign": "NET CONTROL",
+      "type": "General Note",
+      "note": "=== NET CONTROL TRANSFERRED FROM KC9TPX TO W9JS ==="
+    },
+    {
+      "timestamp": "13:39",
+      "callsign": "W9SOX",
+      "type": "Announcement",
+      "note": "Next ARES Callout Net on Wednesday 9/16 after the regular Wednesday night net. Callout net will be on the 146.625 resource net, consisting of registered ARES volunteer checkins, open checkins, and potentially a short exercise."
+    },
+    {
+      "timestamp": "14:00",
+      "callsign": "W9JS",
+      "type": "Announcement",
+      "note": "Read announcements"
+    },
+    {
+      "timestamp": "14:11",
+      "callsign": "KA9WPR",
+      "type": "General Traffic",
+      "note": "To NTS liaison AK9R. Number 0901WKA9WPR7 Plainfield, IN 0805 September 2. To W4EDN C.N.C. Figures 28227 break. No phone or email. Treasure hunt.\n\nShelby Hamfest in Shelby North Carolina.\n\nSig David KA9WPR\n\nHandling preference: HXG"
+    },
+    {
+      "timestamp": "14:13",
+      "callsign": "NET CONTROL",
+      "type": "General Note",
+      "note": "=== NET SESSION PLACED ON STANDBY / CLOSED ==="
+    }
+  ],
+  "time_remaining": 157,
+  "elapsed_seconds": 2468,
+  "start_time_str": "13:32",
+  "end_time_str": "14:13",
+  "current_profile": "ARS - IN - Marion - Weekly",
+  "base_font_size": 10,
+  "is_using_backup": false
+}

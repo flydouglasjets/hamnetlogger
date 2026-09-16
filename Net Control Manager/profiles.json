@@ -1,0 +1,1238 @@
+{
+  "ARS - IN - Marion - Weekly": {
+    "mode": "Training",
+    "has_roll_call": true,
+    "use_custom_statuses": false,
+    "use_24hr_clock": true,
+    "repeater": {
+      "freq": "146.700",
+      "offset": "-",
+      "tone": "88.5 PL",
+      "has_backup": true,
+      "backup_freq": "146.625",
+      "backup_offset": "-",
+      "backup_tone": "88.5"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9JBA",
+          "passcode": "9990"
+        },
+        {
+          "callsign": "W9SOX",
+          "passcode": "9990"
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "NTS",
+      "OES",
+      "Scribe"
+    ],
+    "traffic_types": [
+      "Announcement",
+      "Question",
+      "General Traffic",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "Normal Operations",
+      "Weekly Net - 146.700- 88.5"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00ff00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Calling Up",
+        "text": "CQ net, CQ net, CQ net. This is <YOUR CALL> activating the Marion County Amateur Radio Emergency Service Net. Net control for this session is <YOUR CALL> and the operator is <YOUR NAME>.\n\nThis net meets every Wednesday at 7:30 PM local time in order to pass formal or informal traffic, test our equipment, practice our operating skills, and learn how to properly check into a net. It also allows the local amateur community the opportunity to exchange news and information about ham radio. Membership in any group is not required for participation and check-ins from all licensed amateurs are welcome. When you check in to the net this evening, please indicate whether or not you have traffic or announcements. Remember, this is a directed net and all traffic should be routed through net control.\n\nDo we have an alternate net control for this session? Thank you ______________ for volunteering.\n\nDo we have an NTS Liaison or OES station? Thank you __________ for volunteering (continue if nobody volunteers).\n\nPlease note that this repeater requires an 88.5Hz pl tone. If this repeater fails, we will use our resource net repeater on 146.625MHz with negative offset, also with an 88.5 pl tone."
+      },
+      {
+        "title": "Short-Time Check-Ins",
+        "text": "I will now take any short-time check-ins that have traffic or announcements.\n\n[Have short-time stations with traffic or announcements go at this time.]"
+      },
+      {
+        "title": "Mobile In Motion",
+        "text": "Are there any mobile stations in motion wishing to check in, please call <YOUR CALL>."
+      },
+      {
+        "title": "Roll Call",
+        "text": "I will now call roll by using last week\u2019s call list. We had <XX> check-ins (read from last week\u2019s list).\n\nThis is <YOUR CALL> for the weekly Marion County ARES net."
+      },
+      {
+        "title": "Open Check-Ins",
+        "text": "I will now take open check-ins grouped alphabetically by the suffix of your callsign. At this time if your callsign suffix matches Alpha through Hotel, A thru H, please come now.\n\nI will now take check-ins that match the suffix of your call India through Quebec, I thru Q come now.\n\nI will now take check-ins that match the suffix of your call Romeo through Zulu, R through Z come now.\n\nI will now take open check-ins from any and all remaining stations.\n\nThis is <YOUR CALL> for the weekly Marion County ARES Net."
+      },
+      {
+        "title": "Announcements/Traffic",
+        "text": "(If needed) We will now hear announcements from stations who checked in. Stations with general traffic for the net will be called upon after announcements. (Call announcement stations in order.)\n\n(Proceed with announcements from the website.)\n\n(If needed) We will now hear from stations that have general traffic for the net. (Call traffic stations in order.)\n\nThis is <YOUR CALL> for the weekly Marion County ARES Net."
+      },
+      {
+        "title": "Late Check-Ins",
+        "text": "Are there any late check-ins?"
+      },
+      {
+        "title": "Other Traffic",
+        "text": "Are there any questions, comments, or traffic for the net? [Allow repeater to drop]\n[Traffic] (Net control can now handle any traffic from the net.)"
+      },
+      {
+        "title": "Closing",
+        "text": "I will now close the net by thanking the Indianapolis Repeater Association for the use of the repeater. I also would like to thank (my alternate net control, ______________ and our OES station/NTS Liaison __________, as well as) all of you who participated tonight. We look forward to hearing from you again next week.\n\nPlease stand by while the repeater is set. [Wait for Control Op to set the repeater before clearing]\n\nThis is YOUR CALL saying \u201c73\u201d and the frequency is now be returned to normal amateur radio use."
+      }
+    ],
+    "api_sync": {
+      "enabled": true,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9JBA",
+      "param_name": "mcinaresstatus",
+      "active_value": "-Activated-",
+      "inactive_value": "-Normal Operations-"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Marion - Connectivity": {
+    "mode": "Regular",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "UNSET",
+      "offset": "X",
+      "tone": "UNSET"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "11:00 AM",
+        "text": "This is [callsign] we will start the net in about 11 minutes. Are there any stations needing a radio check or assistance with their set up?"
+      },
+      {
+        "title": "11:11 AM",
+        "text": "11:11\nCQ net CQ net this is [callsign], [name] and I will be your net control for todays ARES connectivity net. This is a monthly net held on the 3rd friday of the month to help practice net proceedure and gain training during a day time net as well as provide us the ability to exercise and test facility or agency owned radio equipment.\n\nWe welcome all check-ins from any licensed amateur radio operator.\n\nAt this time we will now take any open check ins, when you check in give your callsign and where you are checking in from such as your home, mobile or name of the facility or agency you are operating from.\n\n[Topic / exercise / info for the net goes here"
+      },
+      {
+        "title": "General Traffic",
+        "text": "This is [YOUR CALL] for the weekly Marion County ARES net. Are there any comments or questions for the net?"
+      },
+      {
+        "title": "Closing",
+        "text": "At this time we will officially close the net at ____ Local time. Thank you to all stations checking in as well as the indianapolis repeater association for the use of this repeater.\n\nThis is [callsign] and the repeater is released to normal amateur use."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Marion - Siren Check": {
+    "mode": "Regular",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "146.700",
+      "offset": "-",
+      "tone": "88.5",
+      "has_backup": true,
+      "backup_freq": "146.625",
+      "backup_offset": "-",
+      "backup_tone": "88.5"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS"
+    ],
+    "traffic_types": [
+      "Siren Report",
+      "Question",
+      "Traffic",
+      "Announcement",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "Normal Operations",
+      "Siren Net - 146.700- 88.7",
+      "Siren Net - 146.625- 88.7"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "10:55 AM",
+        "text": "CQ net CQ net CQ net. This is [CALLSIGN], [your name], net control activating the Marion County Siren Check net.  We hold this net on the first Friday of the month to coincide with the county siren test at 11am.  \"Eyes on\" the siren reports are preferred but all check-ins and reports are welcome.\n\nWhen you make your report please provide the siren number if possible using the map at the bottom of www.mcinars.org/skywarn.  If you do not have the number,the closest cross street to the siren will be fine.\n\nAt this time we will take early check-ins, callsign only at this time, please call [CALLSIGN].\n\n[Take checkins] [If there are too many people to finish by 10:59 stop, and state you will take more after the sirens go off.]"
+      },
+      {
+        "title": "After Sirens Sound",
+        "text": "This is [CALLSIGN] net control for the Siren Check Net. \n\n I will take additional check-ins in a moment, first I will now go through the current list: when called upon please report the siren number using the map at the bottom of www.mcinares.org/skywarn if possible or the siren location to the best of your knowledge, if it sounded with rotation as well as any visual reports such as damage or repair needed.\n\n[After going through the list]\nAre there any additional stations wishing to check in, with or without a siren report?\n[Take checkinsand reports]"
+      },
+      {
+        "title": "Closing the Net",
+        "text": "This is [CALLSIGN] net control for the Marion County Siren Test Net.  At this time we are closing the net and would like to thank all amateurs who have participated today. We would like to also thank the Indianapolis Repeater Association for the use of the repeater. This net is now closed at ______(time) local time. This is [CALLSIGN] clear."
+      }
+    ],
+    "api_sync": {
+      "enabled": true,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "Siren Net - 146.700- 88.7",
+      "inactive_value": "Normal Operations"
+    }
+  },
+  "ARS - Generic - Summer": {
+    "mode": "SKYWARN",
+    "has_roll_call": false,
+    "use_custom_statuses": true,
+    "use_24hr_clock": false,
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "Liaison",
+      "EMA",
+      "NWS"
+    ],
+    "traffic_types": [
+      "Tornado",
+      "Funnel cloud",
+      "Rotating wall cloud",
+      "Hail",
+      "Wind",
+      "Flooding",
+      "Damage",
+      "Other",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "INACTIVE": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "WATCH": {
+        "text": "#000000",
+        "bg": "#FFFF00"
+      },
+      "WARNING": {
+        "text": "#ffffff",
+        "bg": "#FF0000"
+      },
+      "EMERGENCY": {
+        "text": "#ffffff",
+        "bg": "#FF00FF"
+      },
+      "RECOVERY": {
+        "text": "#ffffff",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Standby",
+        "text": "Attention all stations, this is <callsign, name>, initiating an informal standby SKYWARN status on this repeater for <region/county>. The purpose of standby status is to provide spotters and others interested with the most up to date information regarding <event>. The National Weather Service has indicated that severe weather is likely in the area in the near term. This is not an active net; no check-ins are being taken, and normal repeater operations can continue.\n\n[Read NWS bulletin or give synopsis if available]\n\nAnyone wishing to give a severe report if SKYWARN operations are initiated should do so by giving the time of the event, the location it occurred, what happened, and their callsign.\n\n<Callsign>, SKYWARN net control, monitoring.\n\n-------------------------------------------------\n\nContinuity Announcement (every 30 minutes; ID with callsign every 10 minutes)\n\nAttention all stations, this is <callsign, name> maintaining an informal standby SKYWARN status for <region/county>. Standby status serves to provide spotters and others with the most up to date information regarding <event>. This is not an active net. Normal repeater operations can continue, and no check-ins are being taken.\n\n[Read NWS bulletin or give synopsis if available]\n\nAnyone wishing to give a severe report if SKYWARN operations are initiated should do so by giving the time of the event, the location it occurred, what happened, and their callsign.\n\n<Callsign>, SKYWARN net control, monitoring.\n"
+      },
+      {
+        "title": "Watch",
+        "text": "Attention all stations, this is <callsign, name>, Net Control for <region/county> SKYWARN. SKYWARN operations are being activated at <time> in a watch status. The National Weather Service has indicated that severe weather is possible in the next few hours. This is an informal net; normal repeater operations can continue. Any stations with emergency or priority traffic are encouraged to key up using the phrase \u201cbreak, break.\u201d\n\n[Read NWS watch bulletin as well as any pertinent MCDs.]\n\nIs there anyone who can serve as alternate net control at this time? Please call Net Control.\n\n<Callsign>, thank you for volunteering as ANC. Is there anyone who can serve as liaison at this time? Please call Net Control.\n\n<Callsign>, thank you for volunteering as liaison. <List liaison duties per local procedures, if available.>\n\nCheck-ins are not accepted during watch nets, but if a spotter wishes to state their availability or ask questions of Net Control prior to the start of formal operations, your traffic is welcome. Once formal operations begin, official check-ins will be accepted as time allows. If during formal operations you must leave, please inform Net Control.\n\nThe NWS will be looking for reports of: <severe report list> in a time-condition-location-source format. This net will continue in watch mode until an upgrade or cancellation is deemed necessary. <Callsign>, SKYWARN net control, monitoring.\n\nContinuity Announcement (every 10 minutes)\n\nAttention all stations, this is <callsign>, Net Control for <region/county> SKYWARN. Formal SKYWARN operations have not been activated. We are in a watch status; severe weather is possible in the next few hours. This is an informal net, and no check-ins are being taken. This net is informational in nature. However, if you have severe weather to report, please call Net Control.\n\n[Read NWS watch bulletin as well as any pertinent MCDs. Check ANC and LS status every 30 minutes.]\n\n<Callsign>, SKYWARN net control, monitoring.\n"
+      },
+      {
+        "title": "Warning",
+        "text": "Attention all stations, this is <callsign, name>, Net Control for <region/county> SKYWARN. SKYWARN operations are being <activated/upgraded> at <time local> in a warning status. Severe weather is imminent. This is a directed net. Any stations with emergency or priority traffic are encouraged to break into the net using the phrase \u201cbreak, break.\u201d\n\n[Read NWS warning bulletin and give radar summary]\n\n<ANC callsign>, are you still able to act as alternate net control? (Is there one available?)\n\n<LS callsign>, are you still able to act as liaison? (Is there one available? Local procedures.)\n\n\n\n* If time allows* Check-ins will now be accepted. Please come five at a time as your callsign suffix is called using standard phonetics, state your location, and whether you are base or mobile. If you must leave, please inform Net Control.\n\nStations whose callsign suffix begins with A through F, please call Net Control. (G-L, M-S, T-Z)\n\n* Recognize check-ins as they come, remaining on a group until no other check-ins occur.*\n\nAnyone station A through L who missed their suffix call, please call Net Control using standard phonetics (M through Z).\n\nThank you for volunteering for this net.\n\n\n\n* If time does not allow* Check-ins will not be accepted at this time. Stations will be automatically checked in as they give severe weather reports. If you must leave the net, please inform Net Control.\n\nThe NWS is looking for: <severe report list> in TCLS format. This net will continue in warning mode until an upgrade or cancellation is deemed necessary. <Callsign>, Net Control, monitoring.\n\nContinuity Announcement (every 10 minutes as able)\n\nAttention all stations, this is <callsign, name>, Net Control for <region/county> SKYWARN. SKYWARN operations have been activated in a warning status; severe weather is <imminent/occurring>. This is a directed net. If you have severe weather to report or need to leave, please call net control. [Reports in TCLS]\n\n[Read NWS warning bulletin as well as any pertinent MCDs. ANC/LS check every other time.]\n\n<Callsign>, Net Control, monitoring.\n"
+      },
+      {
+        "title": "Emergency",
+        "text": "Attention all stations, attention all stations, <callsign>, Net Control. The National Weather Service has issued a <PDS/emergency bulletin type> for the area. This net is being upgraded to an emergency status, and storm reports are restricted to (see below) in TCLS format. No check-ins will be taken; instead, you will be checked in when you give a report. If you must leave the net, please inform Net Control. Stations with emergency or priority traffic are encouraged to break into the net using the phrase \u201cbreak, break.\u201d\n\n[Read storm tracking section and expiration time of NWS bulletin.]\n\nThis net will continue in emergency status until an upgrade or cancellation is deemed necessary. <Callsign>, Net Control, monitoring. Stay safe out there.\n\nContinuity Announcement (every 10 minutes as able)\n\nAttention all stations, attention all stations, this is <callsign>, Net Control for <region/county> SKYWARN. This net is active in emergency status. A (PDS/emergency bulletin type) is in effect for the area. Reports are restricted to (see below) in TCLS format, and no check-ins will be taken; instead, you will be checked in when you give a report. If you must leave the net, please inform Net Control. Stations with emergency or priority traffic are encouraged to break into the net using the phrase \u201cbreak, break.\u201d\n\n[Read storm tracking section and expiration time of NWS bulletin.]\n\n<Callsign>, Net Control, monitoring.\n"
+      },
+      {
+        "title": "Recovery",
+        "text": "Attention all stations, attention all stations, this is <callsign, name>, Net Control for <region/county> SKYWARN. The severe weather threat has diminished in the area. This net is now shifting toward search and rescue support for local authorities. This is a directed net. Any stations with emergency or priority traffic, whether checked in or not, please call Net Control now.\n\nI will now call all stations checked into the net. Please respond as you are able.\n\n[Perform safety check of all stations checked into the net. Then perform damage report recap.]\n\n<ANC callsign>, are you still able to act as alternate net control?\n\n<LS callsign>, are you still able to act as liaison? If so, please ensure you have a link to local EMA.\n\nAll damage reports and EMS requests will be taken, however keep in mind that this net could be reactivated in a SKYWARN status if severe weather threatens again.\n\nCheck-ins will now be accepted. Please come five at a time as your callsign suffix is called using standard phonetics, state your location, and whether you are base or mobile. If you must leave, please inform Net Control.\n\nStations whose callsign suffix begins with A through F, please call Net Control. (G-L, M-S, T-Z)\n\n* Recognize check-ins as they come, remaining on a group until no other check-ins occur.*\n\nAnyone station A through L who missed their suffix call, please call Net Control using standard phonetics (M through Z).\n\nThank you for volunteering for this net. Please report damage or EMS requirements with the location and known conditions of people or property involved. This net will continue in recovery status until such time as we are relieved of duty or severe weather threatens again. <Callsign>, Net Control, monitoring.\n\nContinuity Announcement (every 10 minutes as able)\n\nAttention all stations, attention all stations, this is <callsign>, Net Control for this recovery net. <Event> has recently caused severe damage to the area and this net is active to assist local emergency services in search, rescue, and recovery operations. Damage reports and EMS requests are being taken. Any station with emergency or priority traffic, please call Net Control. This is <callsign>, Net Control, monitoring.\n"
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "skywarnstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    }
+  },
+  "ARS - IN - Marion": {
+    "mode": "SKYWARN",
+    "has_roll_call": false,
+    "use_custom_statuses": true,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "146.760",
+      "offset": "-",
+      "tone": "151.4",
+      "has_backup": true,
+      "backup_freq": "443.250",
+      "backup_offset": "-",
+      "backup_tone": "100"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "Liaison"
+    ],
+    "traffic_types": [
+      "Tornado",
+      "Funnel cloud",
+      "Rotating wall cloud",
+      "Hail",
+      "Wind",
+      "Flooding",
+      "Damage",
+      "Other",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "Net Not Anticipated",
+      "No Active Net",
+      "Net Active - 146.760+ 151.4"
+    ],
+    "net_statuses": {
+      "INACTIVE": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "ACTIVE": {
+        "text": "#FFFFFF",
+        "bg": "#FF0000"
+      },
+      "CLOSED": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Preamble",
+        "text": "CQ net CQ net CQ net. This is [Your Call], [Your Name], net control activating the Marion County Skywarn Severe Weather net.\n\nAt this time Severe weather is [choose best description]\n\n- approaching the area.\n- imminent in the area.\n\nAmateurs are asked to watch for signs of deteriorating conditions and provide appropriate reports to Net control. This a directed net and all stations are asked to transmit only when recognized by net control.\n\nPlease remember that the 146.760 repeater requires a 151.4 pl tone and the 443.250 repeater requires a\n100pl tone. Always key up for a second before speaking to ensure your transmission is not clipped.\n\n[Read NWS bulletin/ Watch or Warning if available]\n\nThe National Weather Service is looking for reports of weather events which you have personally observed that meet the following criteria: [Alter this list based on requests from NWS via liason or as conditions change]\n\nTornados, funnel clouds, or rotating wall clouds\nHail including the size of the hail\nWinds in excess of 50 miles per hour\nFlooding of creeks, streams, rivers, roads, or streets\nDamage to trees, power lines, or structures caused by wind\n\nWhen you make your report, please give your exact location, if measurements are estimated or actual, and\nthe time the event occurred especially if your report is delayed.\n\nAt this time are there any reports that meet these criteria?"
+      },
+      {
+        "title": "Liaison",
+        "text": "Do we have a station available to take over as liaison at this time?\n\nThank you ________ for volunteering. Please be sure you are able to listen to this net, in addition to the\nCentral Indiana Skywarn net on 146.97 or 442.65 repeater, both of those have a 77.0 PL tone. Please check in\nwith them to let them know you are (taking over as) the liaison for Marion County, and that we have a net up\nand running."
+      },
+      {
+        "title": "Check-Ins",
+        "text": "I will now take check-ins by quadrants of the county. Please come 5 at a time with your callsign, and if you are\nbase or mobile in motion. [note: if they are not mobile then they are \u2018base\u2019]\n\nI will now take check ins from the _________ corner, please come 5 at a time if you are ___________\n\n[SW] South West corner, South of Washington and West of Meridian.\n[NW] North West corner, North of Washington and West of Meridian.\n[NE] North East corner, North of Washington and East of Meridian.\n[SE] South East corner, South of Washington and East of Meridian."
+      },
+      {
+        "title": "Continuity",
+        "text": "[Read approx. every 10 minutes as time allows]\n\nAttention all stations, Attention all stations, this is [Your Call] net control for the Marion County Skywarn net.\n\n[Read NWS bulletin/ Watch or Warning if available]\n\nThe National Weather Service is looking for reports of weather events which you have personally observed\nthat meet the following criteria: [Alter this list based on requests from NWS via liason or as conditions change]\n\nTornados, funnel clouds, or rotating wall clouds\nHail including the size of the hail\nWinds in excess of 50 miles per hour\nFlooding of creeks, streams, rivers, roads, or streets\nDamage to trees, power lines, or structures caused by wind\n\nWhen you make your report, please give your exact location, if measurements are estimated or actual, and\nthe time the event occurred especially if your report is delayed.\n\nAt this time are there any reports that meet these criteria?"
+      },
+      {
+        "title": "Closing",
+        "text": "[When released by Central Indiana SKYWARN]\n\nAttention all stations, Attention all stations, this is [Your Call] , [Your Name] net control for the Marion County\nSkywarn Severe Weather net. At this time we are closing the net and would like to thank all amateurs who\nhave participated today.\n\n[Read any NWS Bulletin or Watch that is still in effect]\n\nWe would like to also thank the Central Indiana Repeater Club, and KM9E repeater for the use of the\nrepeaters for this net. This net is now closed at ______(time) local time. This is [Your Call] clear."
+      }
+    ],
+    "api_sync": {
+      "enabled": true,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9JBA",
+      "param_name": "skywarnstatus",
+      "active_value": "Net Active - 146.760+ 151.4",
+      "inactive_value": "Net Not Anticipated"
+    },
+    "has_nts": false
+  },
+  "ARS - IN - Tippecanoe": {
+    "mode": "SKYWARN",
+    "has_roll_call": false,
+    "use_custom_statuses": true,
+    "use_24hr_clock": false,
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "Portable",
+      "NCS",
+      "ANCS",
+      "Liaison"
+    ],
+    "traffic_types": [
+      "Tornado",
+      "Funnel cloud",
+      "Rotating wall cloud",
+      "Hail",
+      "Winds",
+      "Flooding",
+      "Damage",
+      "Other",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "INACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CONDITION 3": {
+        "text": "#000000",
+        "bg": "#FFFF00"
+      },
+      "CONDITION 2": {
+        "text": "#FFFFFF",
+        "bg": "#FF0000"
+      },
+      "CLOSED": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Preamble",
+        "text": "Welcome to the net..."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "skywarnstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    }
+  },
+  "ARS - IN - Tippecanoe - Weekly": {
+    "mode": "Training",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": true,
+    "repeater": {
+      "freq": "146.700",
+      "offset": "-",
+      "tone": "88.5 PL"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Preamble",
+        "text": "Attention all stations. This is <name>, <callsign phonetically>, Net Control for the Tippecanoe County, Indiana, Amateur Radio Emergency Service.\n\nThis is an ARES Operations Net.\n\nThis training net commences every Monday evening at twenty-hundred hours, local time, with a focus on practicing the skills of net discipline, standard ARES net procedures, and net control operations.\n\nThis is a directed, Operations Net. Please do not transmit unless asked to do so by Net Control. Stations with EMERGENCY or PRIORITY communications may interrupt at any time, and will be immediately acknowledged.\n\nShould this repeater become unavailable or unsuitable for use during the net, continue to listen to this frequency for information and instructions provided by the Net Control.\n\n<Callsign of scheduled ANCS>, are you ready to serve as Alternate Net Control?\n\n(Pause for scheduled ANCS response and acknowledge appropriately.\n\nIf no response: \"Are there any ARES Net Control operators able to serve as Alternate for this net? Call now.\"\n\nIf still no response: \"Any ARES member able to serve as Alternate Net Control, call now.\")\n\nThis is a communications exercise for Tippecanoe County ARES. Those of you who are not members of ARES are welcome to participate. We invite all amateurs in the ares to join us for this training net.\n\nCheck-ins by proxy are not permitted, in order to encourage all participants to practice standard net operating procedures. Once you are acknowledged by Net Control, please continue to closely monitor the net for its duration. Individual net check-outs, or \"short-time\" check-ins, are not standard procedure during this exercise."
+      },
+      {
+        "title": "Net Check-In",
+        "text": "(If a specific net check-in protocol has been requested by ARES leadership, use it. Otherwise, proceed with standard check-in protocol.)\n\nIn order to promote good amateur practice, and help train those who may be new to emergency communications, we ask that you observe the following protocol:\n\nCheck into the net by stating only:\n- your call sign, using standard phonetics, and\n- indicate if you are mobile.\n\nStations whose callsign suffix begins with ___________ through ___________, call now.\n\n- Alpha through Foxtrot\n- Golf through Lima\n-Mike through Sierra\n-Tango through Zulu\n\n(Pause for check-ins. Acknowledge appropriately. Wait until there are no responses to your call for stations from each group before proceeding to the next.)"
+      },
+      {
+        "title": "Net Announcements",
+        "text": "This is <callsign>, Net Control for this ARES Operations Net. Any station wth announcements, news, information, or questions, pertaining to ARES, SKYWARN, or emergency communications, identify now with callsign only.\n\n(Pause for stations to identify, acknowledge them appropriately, and allow tem to give their announcement or ask their questions. The passing of any formal messages should be delayed until after the close of the net, if possible, unless they have a precedence of emergency or priority.)"
+      },
+      {
+        "title": "Standard Net Announcements",
+        "text": "This is an Operations Training Net for Tippecanoe County ARES. Details about this ARES team, including training, activities, meetings, and other related information, are available on the web at W9TCA.com."
+      },
+      {
+        "title": "Late Check-In Opportunity",
+        "text": "(If a specific net check-in protocol has been requested by ARES leadership, use it. Otherwise, proceed with standard check-in protocol.)\n\nStations that missed the initial call wll now be given a final opportunity to check in. We ask that you observe net protocol by statingonly:\n\n- your callsign, using standard phonetics, and\n- indicate if you are mobile.\n\nStations with a call sign suffix beginning with ALPHA through LIMA who missed the initial check-in, call now.\n\n(Pause for check-ins and acknowledge appropriately.)\n\nStations MIKE through ZULU who missed the initial check-in, call now.\n\n(Pause for check-ins and acknowledge appropriately.)\n\nIf there are any other announcements for this ARES net, call now.\n\n(Pause, then acknowledge appropriately.)"
+      },
+      {
+        "title": "Net Closing",
+        "text": "This communication exercise is now terminated. We want to thank the repeater owners and trustees for the use and availability of their systems, and we appreciate everyone who participated.\n\nThe next scheduled ARES net will be next Monday evening at twenty-hundred hours, local time (or other primary scheduled net, as announced).\n\nThis is <callsign>, Net Control for Tippecanoe County ARES closing this Operations Net at <time>, and returning the frequency to normal use.\n\n(Call ANCS and confirm number of participating stations, then fill out net report at w9tca.com/net-report or by emailing net-report@w9tca.com.)"
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Marion - Resource": {
+    "mode": "Resource",
+    "has_roll_call": false,
+    "use_custom_statuses": true,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "UNSET",
+      "offset": "X",
+      "tone": "UNSET"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "NTS"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "L5 MONITOR": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "L4 STAND BY": {
+        "text": "#000000",
+        "bg": "#FFFF00"
+      },
+      "L3 ALERT": {
+        "text": "#000000",
+        "bg": "#FF7034"
+      },
+      "L2 ACTIVATION": {
+        "text": "#FFFFFF",
+        "bg": "#FF0000"
+      },
+      "L1 NAT EMER": {
+        "text": "#FFFFFF",
+        "bg": "#FF00FF"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Activation",
+        "text": "[Primary resource net: 147.120 +0.6MHz, 88.5 PL. Alternate: 443.850 +5MHz, 88.5 PL)]\n\nAttention all amateur radio stations! The Marion County Amateur Radio Emergency Service is activating a resource net to provide emergency communications for:\n\n[reason for net]\n\nThis is [callsign normally and phonetically], net control for the Resource Net of the Marion County Amateur Radio Emergency Service. This is a directed net and all communications should be routed through net control. Stations with emergency or priority traffic may interrupt this net at any time.\n\nI do not have the ability to dispatch emergency services at this time. If you require immediate help, please use 9-1-1 to contact your local emergency services.\n\n[PAUSE FOR EMERGENCY AND PRIORITY TRAFFIC]\n\nDuring this directed emergency net, the following emergency procedures will be implemented by the Net Control Station:\n\n1. All registered volunteers of the Marion County ARES team are requested to check into the resource net.\n\n2. Other amateur radio stations are requested to stand by until a general check-in is announced.\n\n3. All amateur radio stations on this frequency are asked to stand by until called upon by the Net Control Station.\n\n4. Any amateur radio station desiring to contact another amateur radio station on the resource net must obtain permission from the Net Control Station prior to establishing contact.\n\n5. Emergency and priority traffic will have priority over all other traffic on this resource net.\n\n6. Any amateur radio stations that have checked into this resource net, regardless of whether or not they are registered volunteers of the Marion County Amateur Radio Emergency Service, must notify the Net Control Station before leaving the resource net even if only for a few moments."
+      },
+      {
+        "title": "ARES Check-Ins",
+        "text": "We will now accept check-ins from current registered volunteers of the Marion County Amateur Radio Emergency Service. When you check in, please give your call sign phonetically. I will acknowledge your check-in one by one, at which time I want you to respond with your call sign, name, location, and deployment availability. Your location should be in the format of hundred block North or South, then hundred block East or West. For example, 2500 South 8500 East. I will now take check-ins in groups of five."
+      },
+      {
+        "title": "General Check-Ins",
+        "text": "Repeating, the Marion County Amateur Radio Emergency Service has activated a resource net to provide emergency communications for:\n\n[reason for net]\n\nThis is [callsign], Net Control Station for the Resource Net of the Marion County Amateur Radio Emergency Service. This is a directed net and all communications should be routed through net control. Stations with emergency or priority traffic may interrupt this net at any time.\n\n[PAUSE FOR EMERGENCY AND PRIORITY TRAFFIC]\n\nWe will now accept general check-ins from all other interested amateur radio stations. When you check in, please give your call sign phonetically. I will acknowledge your check-in one by one, at which time I want you to respond with your call sign, name, location, and deployment availability. Your location should be in the format of hundred block North or South, then hundred block East or West. For example, 2500 South 8500 East. I will now take check-ins in groups of five."
+      },
+      {
+        "title": "Late Check-Ins",
+        "text": "Are there any stations that have not yet checked into this net, or any station with a correction to a previous check-in? Please call now, phonetically.\n\n[Run late and missed check-ins periodically as time allows, and always before net termination]"
+      },
+      {
+        "title": "Periodic Roll Call",
+        "text": "We will now conduct a roll call of all amateur radio stations currently checked into this emergency net. When your call sign is called, please acknowledge the Net Control Station by repeating your call sign. This is [callsign], Net Control Station for the Marion County Amateur Radio Emergency Service Resource Net.\n\n[Conduct the roll call from the Station Management pane. Run the remainder of the net from this section; roll call repeats every 30 minutes.]"
+      },
+      {
+        "title": "Net Termination",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is now terminating the emergency net which was activated for:\n\n[reason for net]\n\nWe will now conduct a roll call of all amateur radio stations currently checked into the net. When your call sign is called, please acknowledge the Net Control Station by repeating your call sign and confirming you are securing your assignment. This is [callsign], Net Control Station for the Marion County Amateur Radio Emergency Service Resource Net.\n\n[Conduct the termination roll call from the Station Management pane]\n\nDuring this net, [number of stations] station checked in, [number of pieces] pieces of formal traffic were handled, and [number of reports] reports were passed to served agencies.\n\nThe Marion County Amateur Radio Emergency Service thanks all of the amateur radio stations which checked into the emergency net. Your cooperation and assistance was greatly appreciated. This is [callsign] returning the frequency back to normal amateur radio use."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": false
+  },
+  "ARS - IN - Marion - Emergency - Command": {
+    "mode": "Emergency",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "UNSET",
+      "offset": "X",
+      "tone": "UNSET"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "NTS"
+    ],
+    "traffic_types": [
+      "Traffic - routine",
+      "Traffic - welfare",
+      "Traffic - priority",
+      "Traffic - emergency",
+      "Question",
+      "Comment",
+      "Note",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Opening",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is activating a command net for:\n\n[reason for net]\n\nThis is [callsign], net control for this command net of the Marion County Amateur Radio Emergency Service. This is a directed net and all communications should be routed through net control. Stations with emergency or priority traffic may interrupt this net at any time.\n\nThis command net allows the leadership of responding amateur radio organizations, jurisdictions, and agencies to communicate with each other and resolve amateur radio operations-related problems.\n\nI do not have the ability to dispatch emergency services at this time. If you require immediate help, please use 9-1-1 to contact your local emergency services.\n\n[Net info such as frequencies of use and service areas go here]"
+      },
+      {
+        "title": "Check-Ins",
+        "text": "We will now accept check-ins from stations assigned to or participating in this net. When you check in, please give your call sign phonetically, followed by your name and location or assignment."
+      },
+      {
+        "title": "Net Operations",
+        "text": "Are there any questions, comments, or traffic for the net?\n\n[Use the Net Traffic window to log net traffic in the activity log.]"
+      },
+      {
+        "title": "Closing",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is now closing this command net, which was activated for:\n\n[reason for net]\n\nDuring this net, [number of stations] stations checked in and [number of pieces] pieces of traffic were handled.\n\nThe Marion County Amateur Radio Emergency Service thanks all of the amateur radio stations which participated in this net. This is callsign] returning the frequency back to normal amateur radio use at [24-hour time] local time."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Marion - Emergency - Message": {
+    "mode": "Emergency",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "UNSET",
+      "offset": "X",
+      "tone": "UNSET"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "NTS"
+    ],
+    "traffic_types": [
+      "Traffic - routine",
+      "Traffic - welfare",
+      "Traffic - priority",
+      "Traffic - emergency",
+      "Question",
+      "Comment",
+      "Note",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Opening",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is activating a message net for:\n\n[reason for net]\n\nThis is [callsign], net control for this message net of the Marion County Amateur Radio Emergency Service. This is a directed net and all communications should be routed through net control. Stations with emergency or priority traffic may interrupt this net at any time.\n\nThis message net handles formal traffic only. Formal written traffic will be passed using standard message forms, and this net may interface with the National Traffic System.\n\nI do not have the ability to dispatch emergency services at this time. If you require immediate help, please use 9-1-1 to contact your local emergency services.\n\n[Net info such as frequencies of use and service areas go here]"
+      },
+      {
+        "title": "Check-Ins",
+        "text": "We will now accept check-ins from stations assigned to or participating in this net. When you check in, please give your call sign phonetically, followed by your name and location or assignment."
+      },
+      {
+        "title": "Net Operations",
+        "text": "FORMAL TRAFFIC ONLY]\n\nAre there any questions, comments, or traffic for the net?\n\n[Use NTS format: originating callsign, content type, destination, message body.]\n\n[Use the Net Traffic window to log net traffic in the activity log.]"
+      },
+      {
+        "title": "Closing",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is now closing this message net, which was activated for:\n\n[reason for net]\n\nDuring this net, [number of stations] stations checked in and pieces of traffic] pieces of traffic were handled.\n\nThe Marion County Amateur Radio Emergency Service thanks all of the amateur radio stations which participated in this net. This is [callsign] returning the frequency back to normal amateur radio use at [24-hour time] local time."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Marion - Emergency - Tactical": {
+    "mode": "Emergency",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "UNSET",
+      "offset": "X",
+      "tone": "UNSET"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": ""
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "ANCS",
+      "NTS"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note",
+      "Frequency Change"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Opening",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is activating a tactical net for:\n\n[reason for net].\n\nThis is [callsign, name], net control for this tactical net of the Marion County Amateur Radio Emergency Service. This is a directed net and all communications should be routed through net control. Stations with emergency or priority traffic may interrupt this net at any time.\n\nThis tactical net manages amateur radio operations within the operational area of a single served agency. Traffic on this net may include traffic handling, coordination of ARES efforts, and recruiting of additional resources.\n\nI do not have the ability to dispatch emergency services at this time. If you require immediate help, please use 9-1-1 to contact your local emergency services.\n\n[Net info such as frequencies of use and service areas go here]"
+      },
+      {
+        "title": "Check-Ins",
+        "text": "We will now accept check-ins from stations assigned to or participating in this net. When you check in, please give your call sign phonetically, followed by your name and location or assignment."
+      },
+      {
+        "title": "Net Operations",
+        "text": "Are there any questions, comments, or traffic for the net?\n\n[Use the Net Traffic window to log net traffic in the activity log.]"
+      },
+      {
+        "title": "Closing",
+        "text": "Attention all amateur radio stations! The Marion County Amateur Radio Emergency Service is now closing this tactical net, which was activated for:\n\n[reason for net]\n\nDuring this net, [number of stations] station checked in and [pieces of traffic] pieces of traffic were handled. The Marion County Amateur Radio Emergency Service thanks all of the amateur radio stations which participated in this net. This is [callsign] returning the frequency back to normal amateur radio use at [24-hour time] local time."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Hendricks - Weekly": {
+    "mode": "Training",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "147.015",
+      "offset": "-",
+      "tone": "88.5 PL",
+      "has_backup": false,
+      "backup_freq": "",
+      "backup_offset": "-",
+      "backup_tone": ""
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": "1234"
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "Portable",
+      "NCS",
+      "ANCS"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Opening",
+        "text": "CQ NET... CQ NET...CQ NET...\n\nThis is the Hendricks County ARES Net. This net is held EVERY TUESDAY NIGHT at 7:30pm on the 147.015 Repeater located in Bellville, Indiana. The net Control Operator for this Evening is [callsign], My name is [name]. This is a directed Net whose primary focus is training radio operators the skills of net discipline, traffic handling, standard net protocols, and Net control operations.\n\n(PAUSE HERE TO ALLOW REPEATER TO DROP)\n\nThe secondary focus of the net is to provide a forum for the Exchange of information of general amateur interest. All Licensed amateurs are encouraged to participate. Please check-in with your call sign phonetically, your name, and whether your station is (Base, Mobile, or Portable). Please say if you have Any announcements, traffic, or Bulletins at the time of your check in."
+      },
+      {
+        "title": "Alternate NCS",
+        "text": "Is there someone that would like to volunteer to act as Alternat Net Control Operator if I have trouble and can't continue with the net?\n\n(Acknowledge person that volunteers for Alternate NCO)\n\nThank you [ACNO callsign] for offering to act as alternate NCO tonight.\n\nThe net will now stand by for any emergency or priority traffic. Please call [callsign], Net Control."
+      },
+      {
+        "title": "Short-Time/Mobile Check-ins",
+        "text": "The net will now stand by for any short-time or mobile check-ins, please call [callsign], Net Control.\n\n(STAND BY FOR CHECK-INS AND ACKNOWLEDGE THEM)\n\n(IF ANY STATIONS ON MOBILE OR SHORT TIME HAVE ANNOUNCEMENTS, TRAFFIC, OR BULLETINS, LET THEM SPEAK NOW BEFORE MOVING ON WITH THE NET)"
+      },
+      {
+        "title": "Open Check-Ins",
+        "text": "The net will now accept check-ins starting with the first letter of your call sign suffix.\n\nStations ALPHA thru GOLF, Please call [callsign], Net Control.\n\n(ACKNOWLEDGE CHECK-INS)\n\nStations HOTEL thru OSCAR, Please call [callsign], Net Control.\n\n(ACKNOWLEDGE CHECK-INS)\n\nStations PAPA thru ZULU, Please call [callsign], Net Control.\n\n(ACKNOWLEDGE CHECK-INS)\n\nStations ALPHA thru ZULU, Please call [callsign], Net Control.\n\n(PAUSE HERE AND ALLOW THE REPEATER TO DROP)"
+      },
+      {
+        "title": "Traffic and Announcements",
+        "text": "(ASK THE STATION THAT HAVE ANNOUNCEMEMTS, TRAFFIC, OR BULLETINS ONE AT A TIME TO SAY WHAT THEY HAVE)\n\n(READ ANY NEWS THAT YOU MAY HAVE. IF YOU HAVE MORE THEN ONE NEWS BIT, SAY \"MORE TO FOLLOW\" AND ALLOW THE REPEATER TO DROP ITS CARRIER)"
+      },
+      {
+        "title": "Late Check-Ins",
+        "text": "Are there any late check-ins for the Hendricks County ARE Net? Please call [callsign], Net Control."
+      },
+      {
+        "title": "Late Traffic/Announcements",
+        "text": "(INQUIRE IF ANY LATE CHECK INS HAS ANY ANNOUNCEMENTS, TRAFFIC, OR BULLETINS FOR THE NET)"
+      },
+      {
+        "title": "Closing",
+        "text": "I would like to thank our host, The Hendricks County Amateur Radio Society for the use of their Repeater, and all stations that participated in this week net. And I would to invite you to check in to next weeks net. \n\nThis is [callsign], securing the net at [local time], and returning the Repeater back to normal amateur use. Thank-you everyone and goodnight. \u201c73\u2019s\u201d This is [callsign], clear."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Shelby - Weekly": {
+    "mode": "Training",
+    "has_roll_call": false,
+    "use_custom_statuses": false,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "145.480",
+      "offset": "-",
+      "tone": "88.5 PL",
+      "has_backup": false,
+      "backup_freq": "",
+      "backup_offset": "-",
+      "backup_tone": ""
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": "1234"
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "ACTIVE": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "CLOSED": {
+        "text": "#00FF00",
+        "bg": "#000000"
+      },
+      "STANDBY": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Opening",
+        "text": "DTMF TONE ALERT: (Optional)\n\nCALL: CQ Net, CQ Net, CQ Net, CQ the Blue River Valley Amateur Radio Society/ARES Net. This is_____(callsign, straight and phonetically), net control operator for this session. My name is _______ and I am located in _______. CQ Net.\n\nStations with emergency or priority traffic may interrupt this net at any time.\n\n(Take care of this traffic first before proceeding on with the Net.)\n\nThis net meets every Monday at 7:30 PM local time on the W9NTP, 145.48 MHz repeater with an 88.5 Hz PL tone, in order to pass formal or informal traffic, test our equipment, practice our operating skills, and learn how to properly check into a net.\n\n(pause, let repeater drop).\n\nIt also allows the local amateur community the opportunity to exchange news and information about ham radio. Membership in any group is not required for participation and all check-ins are welcome. When you check in to the net this evening, please indicate whether or not you have messages or announcements. I will remind everyone that this is a directed net and all traffic must go through the Net Control Station."
+      },
+      {
+        "title": "Short Time Check-Ins",
+        "text": "Any stations on short time, with or without announcements, please call\nNet Control now.\n\n(Log these stations in and let any station with an announcement make them at this time in the order in which they checked-in.)"
+      },
+      {
+        "title": "Open Check-Ins",
+        "text": "I will now take check-ins and traffic for the Net in alphabetical order. If your station has an announcement or traffic please indicate so when you check-in.\n\nAll stations with call sign suffixes beginning with A-Alpha through M-Mike please call Net Control now.\n\n(Log these stations in and make note of those stations that want to make announcements or pass on traffic for the Net. Call one or two times more for stations with suffixes A through M.)\n\nAll stations with call sign suffixes beginning with N-November through Z-Zulu please call Net Control now.\n\n(Log these stations in and make note of those stations that want to make announcements or pass on traffic for the Net. Call one or two times more for stations with call sign suffixes N through Z.)"
+      },
+      {
+        "title": "Traffic and Announcements",
+        "text": "(Now that you have logged in all stations A-Alpha through Z-Zulu, you may call those stations with announcements/traffic in the order they checked-in and let them make their announcements/traffic. If there are no announcements/traffic then move on. \n\nIf you as the NCS have any traffic for the Net, please do so at this time. This could be announcing upcoming hamfests, club meetings or anything that might be of interest to the local amateur radio community.\n\nIf you have traffic for any station on the Net you can pass it on at this time.)"
+      },
+      {
+        "title": "Lake Check-Ins",
+        "text": "Any late check-ins please call NCS now.\n\n(Log any late check-ins. Make one or two additional requests for late check-ins. If they have announcements or traffic for the Net let them do so at this time.)"
+      },
+      {
+        "title": "Commerce",
+        "text": "If any stations have anything to buy, sell or trade in amateur gear only, please call NCS now.\n\n(Recognize the stations one at a time and let them describe the amateur gear they are wanting to buy/sell/trade.)"
+      },
+      {
+        "title": "Final Check-Ins and Traffic",
+        "text": "Any additional check-ins, any station, anywhere please call NCS now.\n\n(Log any late check-ins. Make one or two additional requests for late check-ins. If they have announcements or traffic for the Net let them do so at this time.)"
+      },
+      {
+        "title": "Closing",
+        "text": "With no further traffic, this net is now closing at [local time]. The repeater is being returned to normal amateur radio use. Thanks to all stations for checking in and participating in this Net. 73 from [callsign]."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": true
+  },
+  "ARS - IN - Hancock": {
+    "mode": "SKYWARN",
+    "has_roll_call": false,
+    "use_custom_statuses": true,
+    "use_24hr_clock": false,
+    "repeater": {
+      "freq": "145.330",
+      "offset": "-",
+      "tone": "88.5 PL",
+      "has_backup": true,
+      "backup_freq": "444.450",
+      "backup_offset": "+",
+      "backup_tone": "DCS 465"
+    },
+    "auth": {
+      "enabled": false,
+      "users": [
+        {
+          "callsign": "W9A",
+          "passcode": "1234"
+        }
+      ]
+    },
+    "station_types": [
+      "Base",
+      "Mobile",
+      "NCS",
+      "Liaison"
+    ],
+    "traffic_types": [
+      "Question",
+      "Announcement",
+      "Priority",
+      "Emergency",
+      "General Note"
+    ],
+    "web_status_options": [
+      "ACTIVE",
+      "STANDBY",
+      "CLOSED"
+    ],
+    "net_statuses": {
+      "STANDBY": {
+        "text": "#000000",
+        "bg": "#00FF00"
+      },
+      "WATCH": {
+        "text": "#000000",
+        "bg": "#ffff00"
+      },
+      "WARNING": {
+        "text": "#FFFFFF",
+        "bg": "#ff0000"
+      },
+      "INACTIVE": {
+        "text": "#FFFF00",
+        "bg": "#000000"
+      }
+    },
+    "scripts": [
+      {
+        "title": "Standby",
+        "text": "Atttention all stations in and around Hancock County.\n\nThis is <CALLSIGN> (phonetically) for the Hancock County Severe Weather Net. The National Weather Service has issued a <TYPE OF WATCH> for Hancock County effective until <watch end time>. The Hancock County Severe Weather Net is in a standy by mode at this time.\n\nIf you wish to use the repeater for normal amateur radio traffic, please keep your transmissions short and leave space for stations with priority traffic. Net Control will be providing periodic updates to the weather situation as it develops. If the weather situation deteriorates, the Hancock County Severe Weather Net will be activated.\n\nIs there a station that could serve as an alternate net control station available at this time? If so, please call now.\n\n[If an alternate net control station volunteers, ensure they can access, at a minimum: NWSChat and the Hancock County ARES Slack channel]\n\nIs there any station that could serve as a Liaison to the Central Indiana Skywarn Net? Please call now.\n\n[If a liaison station volunteers, make sure they know to monitor the 146.970 PL 77.0 or 442.650 PL 77.0 repeaters and listen for calls to Hancock County.]\n\nThis is <CALLSIGN> for the Hancock County Severe Weather Net."
+      },
+      {
+        "title": "Active - Opening",
+        "text": "This is <CALLSIGN> (phonetically) activating the Hancock County Severe Weather Net. My name is <YOUR NAME> and I will be the Net Control Station. This is a directed net and all communications should be routed through the net control station. Stations with emergency traffic may interrupt this net at any time by using the procedural word \u201cemergency\u201d followed by your callsign.\n\nThe purpose of this net is to gather severe weather reports from stations in Hancock County and relay them to the National Weather Service or Hancock County Homeland Security. That National Weather Service has issued <WATCH OR WARNING> for Hancock County effective until <end time>.\n\nIDENTIFY LIAISON STATIONS\n    * Central Indiana Skywarn Net Liaison\n    * Public Safety Liaison"
+      },
+      {
+        "title": "Active - Check-Ins",
+        "text": "I will now take check ins for the Hancock County Severe Weather Net. When checking in please give your callsign phonetically and wait to be acknowledged by net control. After net control acknowledges you, please give your current location and whether you are a base or mobile station.\n\nI will now take check ins 5 at a time. Please come now.\n\n(Acknowledge check-ins as they come)\n\nThis is <CALLSIGN> net control for the Hancock County Severe Weather Net. For everyone\u2019s safety please do not leave the net without first checking out. We will be following the NWS criteria for reporting severe weather."
+      },
+      {
+        "title": "Reporting Criteria",
+        "text": "The National Weather Service is looking specifically for reports of the following:\n\n    * Tornadoes, funnel clouds, or rotating wall clouds\n    * Hail including the approximate size related to standard US coins\n    * Wind gusts in excess of 50 miles per hour or more, estimated or measured.\n    * Flooding of streams, creeks, or rivers out of their banks\n    * Roads, or streets made impassable due to water\n    * An inch or more of rain accumulation measured in rain gauge\n    * Any structural damage by wind, hail or lightning\n    * Downed trees, large branches, or power lines"
+      },
+      {
+        "title": "Continuity Announcement",
+        "text": "This is <CALLSIGN>, Net Control for the Hancock County Severe Weather Net. This repeater is in active use, and a controlled, directed severe weather net is active.\n\n[Short summary of the weather situation, including NWS bulletins and a radar summary of threats to Hancock County]\n\nPlease keep transmissions short and concise, and adhere to NWS reporting criteria of:\n\n    * Tornadoes, funnel clouds, or rotating wall clouds\n    * Hail including the approximate size related to standard US coins\n    * Wind gusts in excess of 50 miles per hour or more, estimated or measured.\n    * Flooding of streams, creeks, or rivers out of their banks\n    * Roads, or streets made impassable due to water\n    * An inch or more of rain accumulation measured in rain gauge\n    * Any structural damage by wind, hail or lightning\n    * Downed trees, large branches, or power lines.\n\n<CALLSIGN>, Net Control, monitoring."
+      },
+      {
+        "title": "Closing",
+        "text": "The severe weather threat has now exited the area and is no longer expected to impact Hancock County. We will now close the net. I want to thank all stations who participated in the net. Please stand by while I reset the repeater for normal operations.\n\n[Press 650 to end the net]\n\nThis is <CALLSIGN> clear."
+      }
+    ],
+    "api_sync": {
+      "enabled": false,
+      "url": "https://www.mcinares.org/chatgemilaude/doupdate/",
+      "qrz": "W9A",
+      "param_name": "mcinaresstatus",
+      "active_value": "ACTIVE",
+      "inactive_value": "INACTIVE"
+    },
+    "has_nts": false
+  }
+}

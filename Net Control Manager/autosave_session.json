@@ -1,0 +1,17 @@
+{
+  "is_net_active": false,
+  "net_state_name": "INACTIVE",
+  "current_ncs_callsign": "UNASSIGNED",
+  "current_scribe_callsign": "",
+  "stations": [],
+  "activities": [],
+  "time_remaining": 600,
+  "elapsed_seconds": 0,
+  "start_time_str": "--:--",
+  "end_time_str": "--:--",
+  "current_profile": "ARS - IN - Marion - Weekly",
+  "base_font_size": 10,
+  "is_using_backup": false,
+  "rollcall_roster": [],
+  "rollcall_index": 0
+}
